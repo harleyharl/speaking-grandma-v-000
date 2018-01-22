@@ -17,6 +17,7 @@ def speak_to_grandma(speech_to_grandma)
     "I LOVE YOU TOO PUMPKIN!"
   elsif speech_to_grandma.swapcase == "hI nANA, HOW ARE YOU?"
     "HUH?! SPEAK UP, SONNY!"
+    "HUH?! SPEAK UP, SONNY!"
   elsif speech_to_grandma == speech_to_grandma.upcase
     "NO, NOT SINCE 1938!"
   # if speech_to_grandma == "Hi Nana, how are you?"
