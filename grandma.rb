@@ -18,5 +18,3 @@ def speak_to_grandma(speech_to_grandma)
   elsif speech_to_grandma.case == downcase
     puts "HUH?! SPEAK UP, SONNY!"
 end
-
-speak_to_grandma("Hello")
