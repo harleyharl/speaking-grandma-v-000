@@ -19,6 +19,8 @@ def speak_to_grandma(speech_to_grandma)
     "HUH?! SPEAK UP, SONNY!"
   elsif speech_to_grandma == speech_to_grandma.upcase
     "NO, NOT SINCE 1938!"
+  else speech_to_grandma != speech_to_grandma.upcase
+    "HUH?! SPEAK UP, SONNY!"
   # if speech_to_grandma == "Hi Nana, how are you?"
   #   puts "HUH?! SPEAK UP, SONNY!"
   #   puts "I LOVE YOU TOO PUMPKIN!"
