@@ -13,11 +13,11 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma(speech_to_grandma)
-  if speech_to_grandma.upcase == speech_to_grandma
-  "HUH?! SPEAK UP, SONNY!"
+  if speech_to_grandma == "I LOVE YOU GRANDMA!"
+    "I LOVE YOU TOO PUMPKIN!"
   elsif speech_to_grandma.swapcase == "hI nANA, HOW ARE YOU?"
     "HUH?! SPEAK UP, SONNY!"
-  elsif speech_to_grandma.upcase == speech_to_grandma
+  elsif speech_to_grandma == speech_to_grandma.upcase
     "HUH?! SPEAK UP, SONNY!"
   # if speech_to_grandma == "Hi Nana, how are you?"
   #   puts "HUH?! SPEAK UP, SONNY!"
