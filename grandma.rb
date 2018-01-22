@@ -13,9 +13,11 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma(speech_to_grandma)
-  if speech_to_grandma == "Hi Nana, how are you?"
-    puts "HUH?! SPEAK UP, SONNY!"
-  elsif speech_to_grandma == "I LOVE YOU GRANDMA!"
+  if speech_to_grandma == "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
+  # if speech_to_grandma == "Hi Nana, how are you?"
+  #   puts "HUH?! SPEAK UP, SONNY!"
+  # elsif speech_to_grandma == "I LOVE YOU GRANDMA!"
+  #   puts "I LOVE YOU TOO PUMPKIN!"
   end
 end
